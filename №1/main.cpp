@@ -25,5 +25,6 @@ int main()
 	}
 	cout << max << endl << maxindex << endl;
 	p[maxindex].print();
+	cout << "all good" << endl;
 	complex.close();
 }
