@@ -8,10 +8,9 @@ using namespace std;
 
 
 class Complex {
-private:
+public:
 	double re;
 	double im;
-public:
 	void print();
 	Complex();
 	~Complex();
