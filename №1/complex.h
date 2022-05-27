@@ -3,12 +3,18 @@
 
 #include <string>
 #include <iostream>
+
 using namespace std;
 
-struct Complex {
-	double re = 0;
-	double im = 0;
+
+class Complex {
+private:
+	double re;
+	double im;
+public:
 	void print();
+	Complex();
+	~Complex();
 	Complex sum(Complex cmp1);
 	Complex mult(Complex cmp1);
 	Complex del(Complex cmp1);
